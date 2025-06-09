@@ -41,13 +41,18 @@ body {
  
 
 .features {
-  display: flex;
-  justify-content: space-around;
-  padding: 60px 20px;
-  background: #F6E7E4;
+ display: flex;
+ justify-content: space-around;
+ padding: 60px 80px;
+ background-color: #FAF9F6;
+}
+.feature img {
+ width: 60px;
 }
 .feature h3 {
-  max-width: 200px;
+ margin-top: 16px;
+ color: #3D5A40;
+ font-weight: 500;
 }
 .site-footer {
   text-align: center;
