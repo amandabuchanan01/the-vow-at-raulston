@@ -46,6 +46,12 @@ body {
  padding: 60px 80px;
  background-color: #FAF9F6;
 }
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .feature img {
  width: 60px;
 }
