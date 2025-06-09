@@ -6,18 +6,38 @@ body {
   color: #3D5A40;
 }
 .hero {
-  background: #3D5A40;
-  color: white;
+
+  background: url('hero-wedding.jpg') no-repeat center center / cover;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
   text-align: center;
-  padding: 100px 20px;
+
+  color: #FAF9F6;
+
 }
+
 .btn-primary {
-  background: #D47F6A;
-  padding: 12px 24px;
+
+  background: #3D5A40;
+
   color: white;
-  text-decoration: none;
+
+  padding: 12px 28px;
+
   border-radius: 4px;
+
+  text-decoration: none;
+
 }
+ 
+
 .features {
   display: flex;
   justify-content: space-around;
