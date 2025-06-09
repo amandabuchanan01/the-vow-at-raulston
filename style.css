@@ -9,6 +9,7 @@ body {
 
   background-image: url('hero2.jpg') ;
   background-repeat: no-repeat;
+  background-size: cover;
 
   height: 100vh;
 
