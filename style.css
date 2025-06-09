@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #FAF9F6;
+  color: #3D5A40;
+}
+.hero {
+  background: #3D5A40;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.btn-primary {
+  background: #D47F6A;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background: #F6E7E4;
+}
+.feature h3 {
+  max-width: 200px;
+}
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #3D5A40;
+  color: white;
+}
