@@ -94,9 +94,23 @@ body {
 blockquote {
  font-style: italic;
 }
+.contact-form {
+ padding: 80px;
+ background: #F6E7E4;
+}
+.contact-form form {
+ display: grid;
+ gap: 20px;
+ max-width: 500px;
+ margin: auto;
+}
 .site-footer {
-  text-align: center;
-  padding: 20px;
-  background: #3D5A40;
-  color: white;
+ background: #3D5A40;
+ color: white;
+ padding: 40px 80px;
+ text-align: center;
+}
+.site-footer a {
+ color: #F6E7E4;
+ text-decoration: none;
 }
