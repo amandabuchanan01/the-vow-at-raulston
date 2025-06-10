@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 60px 80px;
+  width: 33.33%
 }
 .feature-middle {
     display: flex;
