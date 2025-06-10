@@ -125,7 +125,9 @@ blockquote {
     border-radius: 4px;
     font-size: 16px;
 }
-
+.contact-form textarea {
+    height: 150px; /* Adjust the height as needed */
+}
 .contact-form button {
     padding: 10px 20px;
     background-color: #3d5a40;
