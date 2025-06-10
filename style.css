@@ -2,7 +2,7 @@
 body {
   margin: 80px;
   font-family: 'Playfair Display', serif;
-  background: #FAF9F6;
+  background: #F7F2E1;
   color: #3D5A40;
 }
 .hero {
@@ -21,7 +21,7 @@ body {
 
   text-align: center;
 
-  color: #FAF9F6;
+  color: #F7F2E1;
 
 }
 
@@ -44,7 +44,7 @@ body {
  display: flex;
  justify-content: space-around;
  padding: 60px 80px;
- background-color: #FAF9F6;
+ background-color: #F7F2E1;
 }
 .feature {
     display: flex;
@@ -63,7 +63,7 @@ body {
 .packages {
  text-align: center;
  padding: 80px;
- background-color: #F6E7E4;
+ background-color: #F7F2E1;
 }
 .package-card {
  border: 1px solid #D47F6A;
@@ -96,7 +96,7 @@ body {
     border-radius: 20px;
 }
 .testimonials {
- background: #FAF9F6;
+ background: #F7F2E1;
  padding: 60px 80px;
 }
 .testimonial-grid {
@@ -108,7 +108,7 @@ blockquote {
 }
 .contact-form {
     padding: 80px;
-    background: #f6e7e4;
+    background: #F7F2E1;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
