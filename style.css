@@ -97,10 +97,10 @@ FONT-WEIGHT: NORMAL;}
  margin: 20px;
 }
 .btn-outline {
- border: 2px solid #3D5A40;
- padding: 60px 80px;
+ border: 2px solid #D47F6A;
+ padding: 10px 15px;
  text-decoration: none;
- color: #3D5A40;
+ color: #D47F6A;
  margin-top: 12px;
  display: inline-block;
 }
