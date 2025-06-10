@@ -91,8 +91,9 @@ body {
 
 .gallery img {
     display: inline-block;
-    width: 300px;
-    height: auto; /* Maintain aspect ratio */
+    width: 250px; /* Set desired width */
+    height: 250px; /* Set desired height for consistency */
+    object-fit: cover; /* Maintain aspect ratio by cropping if necessary */
     border-radius: 20px;
 }
 .testimonials {
