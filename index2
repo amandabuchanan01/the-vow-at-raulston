@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Vow at Raulston</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>Begin Forever at</h1>
+      <h2>The Vow at Raulston</h2>
+      <a href="#contact" class="btn btn-primary">Schedule a Venue Tour</a>
+    </div>
+  </header>
+<section class="features">
+<div class="feature">
+<img src="icon2.jpg" alt="">
+<h3>Elegant Indoor & Outdoor Spaces</h3>
+</div>
+<div class="feature">
+<img src="icon2.jpg" alt="">
+<h3>Weekend-Long Experience</h3>
+</div>
+<div class="feature">
+<img src="icon2.jpg" alt="">
+<h3>Timeless, Natural Setting</h3>
+</div>
+</section>
+  <!--<section class="hero">
+<div class="hero-overlay">
+<h1>Begin Forever at</h1>
+<h2>The Vow at Raulston</h2>
+<a href="#contact" class="btn btn-primary">Schedule a Venue Tour</a>
+</div>
+</section>
+-->
+
+
+<section class="packages">
+<h2>Wedding Packages</h2>
+<div class="package-grid">
+<div class="package-card">
+<h3>Weekday Elopement</h3>
+<p>$1,500</p>
+<p>4-hour venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div>
+<div class="package-card">
+<h3>One Day Package</h3>
+<p>$2,500</p>
+<p>One day venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div>
+
+ <div class="package-card">
+<h3>Weekend Wedding Package</h3>
+<p>$5,500</p>
+<p>Weekend venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div> 
+   <div class="package-card">
+<h3>Family Weekend Wedding Package</h3>
+<p>TBD</p>
+<p>Family Weeken dvenue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div> 
+<!-- Repeat for other packages -->
+</div>
+</section>
+ 
+  <section class="gallery">
+<h2>Real Weddings</h2>
+<div class="gallery-grid">
+<img src="wedding1.jpg" alt="">
+<img src="wedding2.jpg" alt="">
+<img src="wedding3.jpg" alt="">
+</div>
+</section>
+  <section class="testimonials">
+<h2>What Couples Are Saying</h2>
+<div class="testimonial-grid">
+<blockquote>
+<p>"Everything about the venue was perfect..."</p>
+<footer>– Bride Name</footer>
+</blockquote>
+<!-- Repeat -->
+</div>
+</section>
+  <section id="contact" class="contact-form">
+<h2>Schedule a Tour</h2>
+<form>
+Name: <input type="text" placeholder="Your Name">
+Email: <input type="email" placeholder="Your Email">
+Wedding Date<input type="date" placeholder="Wedding Date">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Submit</button>
+</form>
+</section>
+  <footer class="site-footer">
+<div class="footer-columns">
+<div>© 2025 The Vow at Raulston</div>
+<div>
+<a href="#">Instagram</a> |
+<a href="#">Pinterest</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
