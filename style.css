@@ -24,9 +24,10 @@ body {
   color: #F7F2E1;
 
 }
-
+.hero h1 {
+  font-size:2em; }
 .hero h2 {
-  font-size:3em; }
+  font-size:5em; }
 
 .btn-primary {
 
