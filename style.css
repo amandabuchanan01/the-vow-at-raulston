@@ -25,7 +25,9 @@ body {
 
 }
 .hero h1 {
-  font-size:2em; }
+  font-size:2em;
+  margin-block-start: 2em;
+    margin-block-end: 2em;}
 .hero h2 {
   font-size:4em; }
 
