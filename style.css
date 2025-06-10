@@ -19,9 +19,13 @@ body {
 
   justify-content: center;
 
-  text-align: top center;
+  text-align:  center;
 
   color: #F7F2E1;
+
+  .hero-overlay {
+  justify-content: center;
+  text-align:  top;
 
 }
 .hero h1 {
