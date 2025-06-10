@@ -104,8 +104,8 @@ body {
 
 .gallery img {
     display: inline-block;
-    width: 250px; /* Set desired width */
-    height: 250px; /* Set desired height for consistency */
+    width: 300px; /* Set desired width */
+    height: 300px; /* Set desired height for consistency */
     object-fit: cover; /* Maintain aspect ratio by cropping if necessary */
     border-radius: 20px;
 }
