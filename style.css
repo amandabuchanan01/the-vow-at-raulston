@@ -81,7 +81,6 @@ body {
  display: inline-block;
 }
 .gallery-grid {
- display: inline-block;
  grid-template-columns: repeat(3, 1fr);
  gap: 20px;
  padding: 40px 80px;
