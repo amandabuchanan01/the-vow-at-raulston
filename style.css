@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 60px 80px;
-  width: 33.33%; background-color:red;
+  width: 33.33%;
 }
 .feature-middle {
     display: flex;
@@ -89,7 +89,8 @@ body {
  display: inline-block;
 }
 .gallery-grid {
-    display: grid;
+  text-align: center;
+  display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 20px auto; /* Center the grid container */
     gap: 60px;
