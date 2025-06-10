@@ -1,0 +1,153 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #FAF9F6;
+  color: #3D5A40;
+}
+.hero {
+
+  background-image: url('hero3.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  color: #FAF9F6;
+
+}
+
+.btn-primary {
+
+  background: #3D5A40;
+
+  color: white;
+
+  padding: 12px 28px;
+
+  border-radius: 4px;
+
+  text-decoration: none;
+
+}
+ 
+
+.features {
+ display: flex;
+ justify-content: space-around;
+ padding: 60px 80px;
+ background-color: #FAF9F6;
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img {
+ width: 60px;
+}
+.feature h3 {
+ margin-top: 16px;
+ color: #3D5A40;
+ font-weight: 500;
+}
+.packages {
+ text-align: center;
+ padding: 80px;
+ background-color: #F6E7E4;
+}
+.package-card {
+ border: 1px solid #D47F6A;
+  display: inline-block;
+ padding: 24px;
+ width: 340px;
+ margin: 20px;
+}
+.btn-outline {
+ border: 2px solid #3D5A40;
+ padding: 8px 16px;
+ text-decoration: none;
+ color: #3D5A40;
+ margin-top: 12px;
+ display: inline-block;
+}
+.gallery-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+ padding: 40px 80px;
+}
+.gallery img {
+ width: 100%;
+ border-radius: 4px;
+}
+.testimonials {
+ background: #FAF9F6;
+ padding: 60px 80px;
+}
+.testimonial-grid {
+ display: flex;
+ gap: 40px;
+}
+blockquote {
+ font-style: italic;
+}
+.contact-form {
+    padding: 80px;
+    background: #f6e7e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: grid;
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contact-form textarea {
+    height: 150px; /* Adjust the height as needed */
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #3d5a40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #2e4531;
+}
+.site-footer {
+ background: #3D5A40;
+ color: white;
+ padding: 40px 80px;
+ text-align: center;
+}
+.site-footer a {
+ color: #F6E7E4;
+ text-decoration: none;
+}
