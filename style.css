@@ -2,6 +2,7 @@
 body {
   margin: 80px;
   font-family: 'Playfair Display', serif;
+  FONT-WEIGHT: NORMAL
   background: #F7F2E1;
   color: #3D5A40;
 }
@@ -26,12 +27,12 @@ body {
 }
 .hero h1 {
   font-size:2em;
-  margin-block-start: .02em;
-    margin-block-end: .02em;}
+  margin-block-start: .03em;
+    margin-block-end: .03em;}
 .hero h2 {
   font-size:4em;
-margin-block-start: .02em;
-    margin-block-end: .02em;}}
+margin-block-start: .03em;
+    margin-block-end: .03em;}
 
 .btn-primary {
 
