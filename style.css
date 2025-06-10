@@ -26,10 +26,12 @@ body {
 }
 .hero h1 {
   font-size:2em;
-  margin-block-start: 2em;
-    margin-block-end: 2em;}
+  margin-block-start: .02em;
+    margin-block-end: .02em;}
 .hero h2 {
-  font-size:4em; }
+  font-size:4em;
+margin-block-start: .02em;
+    margin-block-end: .02em;}}
 
 .btn-primary {
 
