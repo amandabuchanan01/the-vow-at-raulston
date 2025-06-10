@@ -25,11 +25,7 @@ body {
 
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120;}
  
-.hero-overlay {
-  justify-content: center;
-  text-align:  center;
 
-}
 .hero-overlay h1 {
   font-size:2em;
   margin-block-start: .03em;
