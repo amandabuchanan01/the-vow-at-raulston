@@ -88,8 +88,12 @@ body {
  margin-top: 12px;
  display: inline-block;
 }
+.gallery {
+ text-align: center;
+ padding: 80px;
+ background-color: #F7F2E1;
+}
 .gallery-grid {
-  text-align: center;
   display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 20px auto; /* Center the grid container */
