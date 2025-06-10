@@ -23,7 +23,7 @@ body {
 
   color: #F7F2E1;}
 
-.hero { position: relative;}.hero-overlay { position: absolute; top: 120;}
+.hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
  
 
 .hero-overlay h1 {
