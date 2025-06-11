@@ -5,23 +5,14 @@ body {
   background: #F7F2E1;
   color: #D47F6A;
 }
-.hero {
-
-  background-image: url('hero3.jpg') ;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  height: 90vh;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  text-align:  center;
-
-  color: #F7F2E1;}
+.hero { background-image: url('hero3.jpg');
+       background-repeat: no-repeat; background-size: cover;
+       background-position: top;
+       height: 90vh; display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       color: #f7f2e1; }
 
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
 .hero { position: relative;}.tour-btn { position: absolute; top: 50px; right:80px}
