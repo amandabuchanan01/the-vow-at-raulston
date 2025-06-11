@@ -82,10 +82,13 @@ FONT-WEIGHT: NORMAL;}
 .package-card {
  border: 1px solid #2F2F2F;
  display: inline-block;
- font-weight:normal;
  padding: 24px;
  width: 340px;
  margin: 20px;
+}
+
+.package-card h2 {
+ font-weight: normal;
 }
 .btn-outline {
  border: 2px solid #D47F6A;
