@@ -8,61 +8,77 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
 
   <style>
+    :root {
+      --primary-color: #9c5132;
+      --bg-color: #fff8f1;
+      --font-serif: 'Playfair Display', serif;
+      --font-sans: 'Open Sans', sans-serif;
+    }
+
     body {
       margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background-color: #fff8f1;
+      font-family: var(--font-sans);
+      background-color: var(--bg-color);
       color: #3a2c22;
     }
 
     header {
       text-align: center;
-      padding: 3rem 1rem 1rem;
+      padding: 2rem 1rem 1rem;
     }
 
     header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.75rem;
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
 
     .back-link {
-      font-size: 1rem;
       text-align: center;
       margin-bottom: 2rem;
     }
 
     .back-link a {
-      color: #9c5132;
+      color: var(--primary-color);
       text-decoration: none;
       font-weight: bold;
     }
 
     .details-section {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 0 1rem 3rem;
+      padding: 1rem;
+    }
+
+    .packages-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
     }
 
     .package {
       background: #fff;
       border: 1px solid #ecdccd;
       border-radius: 12px;
-      padding: 2rem;
-      margin-bottom: 2rem;
+      padding: 1.5rem;
+      flex: 1 1 300px;
+      max-width: 350px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     .package h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
       margin-bottom: 0.5rem;
-      color: #333;
+      text-align: center;
     }
 
     .package .price {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       font-weight: bold;
-      color: #9c5132;
+      color: var(--primary-color);
+      text-align: center;
       margin-bottom: 1rem;
     }
 
@@ -74,17 +90,18 @@
     .package li {
       padding: 0.4rem 0;
       border-bottom: 1px solid #f0e7df;
+      font-size: 0.95rem;
     }
 
     .download {
       text-align: center;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
     }
 
     .download a {
       display: inline-block;
       padding: 0.75rem 1.5rem;
-      background-color: #9c5132;
+      background-color: var(--primary-color);
       color: white;
       text-decoration: none;
       border-radius: 6px;
@@ -98,8 +115,38 @@
 
     footer {
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
       font-size: 0.9rem;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .package {
+        padding: 1.2rem;
+      }
+
+      .package h2 {
+        font-size: 1.3rem;
+      }
+
+      .package .price {
+        font-size: 1.2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .download a {
+        font-size: 0.95rem;
+        padding: 0.6rem 1.2rem;
+      }
+
+      .package li {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
@@ -115,50 +162,54 @@
 
   <section class="details-section">
 
-    <div class="package">
-      <h2>Weekday Elopement</h2>
-      <p class="price">$1,500</p>
-      <ul>
-        <li>4-hour venue rental</li>
-        <li>Intimate ceremony setting</li>
-        <li>Up to 10 guests</li>
-        <li>Officiant included</li>
-        <li>Flexible scheduling</li>
-      </ul>
-    </div>
+    <div class="packages-wrapper">
 
-    <div class="package">
-      <h2>One Day Celebration</h2>
-      <p class="price">$2,500</p>
-      <ul>
-        <li>Full wedding day access</li>
-        <li>Indoor & 2 outdoor options</li>
-        <li>Up to 75 guests</li>
-        <li>Tables & chairs included</li>
-        <li>Bridal suite included</li>
-      </ul>
-    </div>
+      <div class="package">
+        <h2>Weekday Elopement</h2>
+        <p class="price">$1,500</p>
+        <ul>
+          <li>4-hour venue rental</li>
+          <li>Intimate ceremony setting</li>
+          <li>Up to 10 guests</li>
+          <li>Officiant included</li>
+          <li>Flexible scheduling</li>
+        </ul>
+      </div>
 
-    <div class="package">
-      <h2>Weekend Wedding</h2>
-      <p class="price">$5,500</p>
-      <ul>
-        <li>3 days of exclusive venue use</li>
-        <li>On-site lodging available</li>
-        <li>Up to 150 guests</li>
-        <li>Rehearsal dinner option</li>
-        <li>Full access to bridal + groom suites</li>
-      </ul>
+      <div class="package">
+        <h2>One Day Celebration</h2>
+        <p class="price">$2,500</p>
+        <ul>
+          <li>Full wedding day access</li>
+          <li>Indoor & 2 outdoor options</li>
+          <li>Up to 75 guests</li>
+          <li>Tables & chairs included</li>
+          <li>Bridal suite included</li>
+        </ul>
+      </div>
+
+      <div class="package">
+        <h2>Weekend Wedding</h2>
+        <p class="price">$5,500</p>
+        <ul>
+          <li>3 days of exclusive venue use</li>
+          <li>On-site lodging available</li>
+          <li>Up to 150 guests</li>
+          <li>Rehearsal dinner option</li>
+          <li>Full access to bridal + groom suites</li>
+        </ul>
+      </div>
+
     </div>
 
     <div class="download">
-      <a href="assets/Vow-Pricing.pdf" download>📄 Download Full Pricing PDF</a>
+      <a href="assets/The_Vow_Pricing.pdf" download>📄 Download Full Pricing PDF</a>
     </div>
 
   </section>
 
   <footer>
-    <p>© The Vow at Raulston</p>
+    <p>© The Vow at Raulston. All rights reserved.</p>
   </footer>
 
 </body>
