@@ -71,7 +71,6 @@ FONT-WEIGHT: NORMAL;}
     align-text: center;
     border-left: 1px solid #2F2F2F; /* Add left border */
     border-right: 1px solid #2F2F2F; /* Add right border */
-  filter: drop-shadow(2px 2px 0px black)
 }
 .feature img {
  width: 60px;
