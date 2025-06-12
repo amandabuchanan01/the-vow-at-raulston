@@ -1,276 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Vow at Raulston</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    :root {
-      --primary-color: #9c5132;
-      --bg-color: #fff8f1;
-      --font-serif: 'Playfair Display', serif;
-      --font-sans: 'Open Sans', sans-serif;
-    }
-
-    body {
-      margin: 0;
-      font-family: var(--font-sans);
-      background: var(--bg-color);
-      color: #3a2c22;
-    }
-
-    .hero {
-      background: url('hero.jpg') center/cover no-repeat;
-      position: relative;
-      height: 90vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      color: white;
-    }
-
-    .hero-overlay {
-      background-color: rgba(0,0,0,0.5);
-      padding: 2rem;
-    }
-
-    .hero h1, .hero h2 {
-      margin: 0.5rem 0;
-      font-family: var(--font-serif);
-    }
-
-    .btn, .btn-outline {
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-    }
-
-    .btn-primary {
-      background-color: var(--primary-color);
-      color: white;
-    }
-
-    .btn-outline {
-      border: 2px solid var(--primary-color);
-      color: var(--primary-color);
-      margin-top: 1rem;
-    }
-
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      text-align: center;
-      padding: 3rem 1rem;
-      background: white;
-    }
-
-    .feature {
-      flex: 1 1 300px;
-      padding: 1rem;
-    }
-
-    .packages {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    .package-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-
-    .package-card {
-      background: white;
-      border: 1px solid #ecdccd;
-      border-radius: 10px;
-      padding: 2rem;
-      max-width: 300px;
-      text-align: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-
-    .package-card h3 {
-      font-family: var(--font-serif);
-    }
-
-    .package-card p {
-      margin: 0.5rem 0;
-    }
-
-    .gallery, .testimonials, .contact-form {
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    .gallery-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .gallery-grid img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 6px;
-    }
-
-    .testimonial-grid blockquote {
-      max-width: 500px;
-      margin: 1rem auto;
-      font-style: italic;
-    }
-
-    .contact-form form {
-      max-width: 500px;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .contact-form input, .contact-form textarea {
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
-
-    .contact-form button {
-      background-color: var(--primary-color);
-      color: white;
-      border: none;
-      padding: 1rem;
-      border-radius: 6px;
-      font-size: 1rem;
-      font-weight: bold;
-    }
-
-    .site-footer {
-      background: white;
-      padding: 2rem 1rem;
-      border-top: 1px solid #eee;
-    }
-
-    .footer-columns {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    @media (min-width: 768px) {
-      .footer-columns {
-        flex-direction: row;
-        justify-content: space-between;
-      }
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Vow at Raulston</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
 <header class="hero">
-  <div class="hero-overlay">
-    <h1>Begin Forever at</h1>
-    <h2>THE VOW AT RAULSTON</h2>
-  </div>
-  <div class="tour-btn">
-    <a href="#contact" class="btn btn-primary">Schedule a Venue Tour</a>
-  </div>
+<div class="hero-overlay">
+<h1>Begin Forever at</h1>
+<h2>THE VOW AT RAULSTON</h2>
+
+</div>
+<div class="tour-btn"> <a href="#contact" class="btn btn-primary">Schedule a Venue Tour</a></div>
 </header>
-
 <section class="features">
-  <div class="feature">
-    <img src="icon2.jpg" alt="">
-    <h3>Elegant Indoor & Outdoor Spaces</h3>
-  </div>
-  <div class="feature feature-middle">
-    <img src="icon2.jpg" alt="">
-    <h3>Weekend-Long Experience</h3>
-  </div>
-  <div class="feature">
-    <img src="icon2.jpg" alt="">
-    <h3>Timeless, Natural Setting</h3>
-  </div>
+<div class="feature">
+<img src="icon2.jpg" alt="">
+<h3>Elegant Indoor & Outdoor Spaces</h3>
+</div>
+<div class="feature feature-middle">
+<img src="icon2.jpg" alt="">
+<h3>Weekend-Long Experience</h3>
+</div>
+<div class="feature">
+<img src="icon2.jpg" alt="">
+<h3>Timeless, Natural Setting</h3>
+</div>
 </section>
-
+<!--<section class="hero">
+<div class="hero-overlay">
+<h1>Begin Forever at</h1>
+<h2>The Vow at Raulston</h2>
+<a href="#contact" class="btn btn-primary">Schedule a Venue Tour</a>
+</div>
+</section>
+-->
+ 
+ 
 <section class="packages">
-  <h2>Wedding Packages</h2>
-  <div class="package-grid">
-    <div class="package-card">
-      <h3>Weekday Elopement</h3>
-      <p>$1,500</p>
-      <p>4-hour venue rental<br>Intimate ceremony</p>
-      <a href="price-details.html" class="btn-outline">View Details</a>
-    </div>
-    <div class="package-card">
-      <h3>One Day Package</h3>
-      <p>$2,500</p>
-      <p>One day venue rental<br>Intimate ceremony</p>
-      <a href="price-details.html" class="btn-outline">View Details</a>
-    </div>
-    <div class="package-card">
-      <h3>Weekend Wedding Package</h3>
-      <p>$5,500</p>
-      <p>Weekend venue rental<br>Intimate ceremony</p>
-      <a href="price-details.html" class="btn-outline">View Details</a>
-    </div>
-    <div class="package-card">
-      <h3>Family Weekend Wedding Package</h3>
-      <p>TBD</p>
-      <p>Family weekend venue rental<br>Intimate ceremony</p>
-      <a href="price-details.html" class="btn-outline">View Details</a>
-    </div>
-  </div>
+<h2>Wedding Packages</h2>
+<div class="package-grid">
+<div class="package-card">
+<h3>Weekday Elopement</h3>
+<p>$1,500</p>
+<p>4-hour venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div>
+<div class="package-card">
+<h3>One Day Package</h3>
+<p>$2,500</p>
+<p>One day venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div>
+ 
+<div class="package-card">
+<h3>Weekend Wedding Package</h3>
+<p>$5,500</p>
+<p>Weekend venue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div> 
+<div class="package-card">
+<h3>Family Weekend Wedding Package</h3>
+<p>TBD</p>
+<p>Family Weeken dvenue rental<br>Intimate ceremony</p>
+<a href="#" class="btn-outline">View Details</a>
+</div> 
+<!-- Repeat for other packages -->
+</div>
 </section>
 
 <section class="gallery">
-  <h2>Real Weddings</h2>
-  <div class="gallery-grid">
-    <img src="wedding01.jpg" alt="">
-    <img src="wedding02.jpg" alt="">
-    <img src="wedding03.jpg" alt="">
-  </div>
+<h2>Real Weddings</h2>
+<div class="gallery-grid">
+<img src="wedding01.jpg" alt="">
+<img src="wedding02.jpg" alt="">
+<img src="wedding03.jpg" alt="">
+</div>
 </section>
-
 <section class="testimonials">
-  <h2>What Couples Are Saying</h2>
-  <div class="testimonial-grid">
-    <blockquote>
-      <p>"Everything about the venue was perfect..."</p>
-      <footer>– Bride Name</footer>
-    </blockquote>
-  </div>
+<h2>What Couples Are Saying</h2>
+<div class="testimonial-grid">
+<blockquote>
+<p>"Everything about the venue was perfect..."</p>
+<footer>– Bride Name</footer>
+</blockquote>
+<!-- Repeat -->
+</div>
 </section>
-
 <section id="contact" class="contact-form">
-  <h2>Schedule a Tour</h2>
-  <form>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Submit</button>
-  </form>
+<h2>Schedule a Tour</h2>
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Submit</button>
+</form>
 </section>
-
 <footer class="site-footer">
-  <div class="footer-columns">
-    <div>© 2025 The Vow at Raulston</div>
-    <div>
-      <a href="#">Instagram</a> |
-      <a href="#">Pinterest</a>
-    </div>
-  </div>
+<div class="footer-columns">
+<div>© 2025 The Vow at Raulston</div>
+<div>
+<a href="#">Instagram</a> |
+<a href="#">Pinterest</a>
+</div>
+</div>
 </footer>
-
 </body>
 </html>
-
