@@ -18,7 +18,10 @@ body {
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
 .hero { position: relative;}.tour-btn { position: absolute; top: 50px; right:80px}
  
-
+.hero h3  {       align-items: center;
+       align-text: center;
+       justify-content: center;
+       text-align: center;}
 .hero-overlay h1 {
   font-size:2em;
   margin-block-start: .03em;
