@@ -10,6 +10,7 @@ body {
        background-position: top;
        height: 80vh; display: flex;
        align-items: center;
+       align-text: center;
        justify-content: center;
        text-align: center;
        color: #f7f2e1; }
@@ -56,6 +57,7 @@ FONT-WEIGHT: NORMAL;}
     display: flex;
     flex-direction: column;
     align-items: center;
+  align-text: center;
     padding: 60px 80px;
   width: 33.33%;
 }
@@ -63,6 +65,7 @@ FONT-WEIGHT: NORMAL;}
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-text: center;
     border-left: 1px solid #2F2F2F; /* Add left border */
     border-right: 1px solid #2F2F2F; /* Add right border */
 }
@@ -78,6 +81,7 @@ FONT-WEIGHT: NORMAL;}
  text-align: center;
  padding: 80px;
  background-color: #F7F2E1;
+align-items:center;
 }
 .package-card {
  border: 1px solid #2F2F2F;
