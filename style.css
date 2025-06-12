@@ -123,6 +123,10 @@ align-items:center;
     width: 300px; /* Set desired width */
     height: 300px; /* Set desired height for consistency */
     object-fit: cover; /* Maintain aspect ratio by cropping if necessary */
+      align-items: center;
+       align-text: center;
+       justify-content: center;
+       text-align: center;
     border-radius: 20px;
 }
 .testimonials {
