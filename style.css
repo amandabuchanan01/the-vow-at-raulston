@@ -15,9 +15,7 @@ body {
        text-align: center;
        color: #f7f2e1; 
        position: relative;}
-.hero-overlay, .tour-btn {
-    position: absolute;
-}
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
