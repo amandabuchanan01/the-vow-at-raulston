@@ -87,41 +87,6 @@ FONT-WEIGHT: NORMAL;}
  padding: 80px;
  background-color: #F7F2E1;
 align-items:center;
-}/* Responsive styles for smaller screens */
-@media (max-width: 768px)  {
-    .element-class {
-        border: none;
-    }
-}
-    body {
-        margin: 20px;
-    }
-    .hero {
-        height: 60vh;
-    }
-    .hero-overlay {
-        top: 60px;
-    }
-    .tour-btn {
-        top: 20px;
-        right: 20px;
-    }
-    .features {
-        flex-direction: column;
-        padding: 20px;
-    }
-    .feature {
-        width: 100%;
-        padding: 20px;
-    text-align: center;}
- 
-  .feature-middle {
-        border-left: none;
-        border-right: none;
-    }
-  .packages {
-   padding-left: 0px; /* Adjust padding if necessary */
-    }
 }
 
 /* Responsive styles for smaller screens */
