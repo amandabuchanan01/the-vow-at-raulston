@@ -230,6 +230,11 @@ blockquote {
         border-left: none;
         border-right: none;
     }
+ 
+  .packages {
+ text-align: center;
+ padding: 20px;}
+  
   .package-card {
     padding: 20px;
  width: 340px;
