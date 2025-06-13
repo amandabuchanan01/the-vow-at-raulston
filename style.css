@@ -142,6 +142,7 @@ text-align:center;
 .testimonial-grid {
  display: flex;
  gap: 40px;
+  text-align:center;
 }
 blockquote {
  font-style: italic;
