@@ -214,9 +214,9 @@ blockquote {
 .hero-overlay h2 {
   font-size:1.5em;
 }
-    .tour-btn {
-        top: 20px;
-        right: 20px;
+  .btn-primary {
+        display: none;
+   
     }
     .features {
         flex-direction: column;
