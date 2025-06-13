@@ -16,7 +16,12 @@ body {
        color: #f7f2e1; 
        position: relative;}
 
-
+/* Responsive styles for smaller screens */
+@media (max-width: 768px)  {
+    .feature-middle  {
+        border: none;
+    }
+}
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
 .hero { position: relative;}.tour-btn { position: absolute; top: 50px; right:80px}
  
