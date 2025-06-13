@@ -239,4 +239,8 @@ blockquote {
     padding: 20px;
  width: 240px;
  margin: 10px;}
+
+  .gallery {
+    flex-direction:column;
+    padding: 20px;
 }
