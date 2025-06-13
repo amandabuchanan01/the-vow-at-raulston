@@ -33,18 +33,20 @@ body {
     }
     .features {
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
     }
     .feature {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     text-align: center;}
+ 
   .feature-middle {
         border-left: none;
         border-right: none;
     }
   .packages {
-        text-align: left;
+        text-align: center;
+    align-items:center;
         padding-left: 20px; /* Adjust padding if necessary */
     }
 }
