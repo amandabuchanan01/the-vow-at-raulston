@@ -245,6 +245,6 @@ blockquote {
     padding: 20px;
 
     .gallery img{
-      width: 90%;
-        padding: 20px;
+     width: 240px;
+      margin:10px
 }
