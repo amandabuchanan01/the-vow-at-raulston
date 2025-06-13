@@ -33,11 +33,11 @@ body {
     }
     .features {
         flex-direction: column;
-        padding: 10px;
+        padding: 0px;
     }
     .feature {
         width: 100%;
-        padding: 10px;
+        padding: 0px;
     text-align: center;}
  
   .feature-middle {
