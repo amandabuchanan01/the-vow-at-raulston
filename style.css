@@ -33,11 +33,11 @@ body {
     }
     .features {
         flex-direction: column;
-        padding: 0px;
+        padding: 20px;
     }
     .feature {
         width: 100%;
-        padding: 0px;
+        padding: 20px;
     text-align: center;}
  
   .feature-middle {
@@ -45,9 +45,7 @@ body {
         border-right: none;
     }
   .packages {
-        text-align: center;
-    align-items:center;
-        padding-left: 20px; /* Adjust padding if necessary */
+   padding-left: 0px; /* Adjust padding if necessary */
     }
 }
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
