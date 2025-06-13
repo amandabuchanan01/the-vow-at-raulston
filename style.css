@@ -43,6 +43,10 @@ body {
         border-left: none;
         border-right: none;
     }
+  .packages {
+        text-align: left;
+        padding-left: 20px; /* Adjust padding if necessary */
+    }
 }
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
 .hero { position: relative;}.tour-btn { position: absolute; top: 50px; right:80px}
