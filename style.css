@@ -207,6 +207,13 @@ blockquote {
     .hero-overlay {
         top: 60px;
     }
+  .hero-overlay h1 {
+  font-size:.5em;
+ }
+
+.hero-overlay h2 {
+  font-size:2em;
+}
     .tour-btn {
         top: 20px;
         right: 20px;
