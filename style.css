@@ -37,7 +37,8 @@ body {
     }
     .feature {
         width: 100%;
-        padding: 20px;}
+        padding: 20px;
+    text-align: center;}
   .feature-middle {
         border-left: none;
         border-right: none;
