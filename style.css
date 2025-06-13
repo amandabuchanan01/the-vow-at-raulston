@@ -197,7 +197,9 @@ blockquote {
 }
 
 /* Responsive styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 768px) { .image-container {
+        flex-direction: column; /* Stack images vertically */
+    }
     body {
         margin: 20px;
     }
