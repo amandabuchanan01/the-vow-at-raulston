@@ -240,11 +240,11 @@ blockquote {
  width: 240px;
  margin: 10px;}
 
-  .gallery-grid {
-    padding: 20px;
+  .gallery {
+    padding: 10px;
 
     .gallery img {
      width: 240px;
-     flex-direction:column;
-      border-radius: 5px;
+
+
 }
