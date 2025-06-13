@@ -16,9 +16,6 @@ body {
        color: #f7f2e1; 
        position: relative;}
 
-.hero-overlay, .tour-btn {
-    position: absolute;
-}
 
 
 /* Responsive styles */
