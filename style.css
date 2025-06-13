@@ -37,7 +37,10 @@ body {
     }
     .feature {
         width: 100%;
-        padding: 20px;
+        padding: 20px;}
+  .feature-middle {
+        border-left: none;
+        border-right: none;
     }
 }
 .hero { position: relative;}.hero-overlay { position: absolute; top: 120px;}
