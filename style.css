@@ -17,7 +17,11 @@ body {
        position: relative;}
 
 /* Responsive styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 768px)  {
+    .element-class {
+        border: none;
+    }
+}
     body {
         margin: 20px;
     }
