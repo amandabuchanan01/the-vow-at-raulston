@@ -244,7 +244,7 @@ blockquote {
     flex-direction:column;
     padding: 20px;
 
-    .gallery img{
+    .gallery img {
      width: 240px;
     display:flex;
       border-radius: 5px;
