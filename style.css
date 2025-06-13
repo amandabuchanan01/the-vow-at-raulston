@@ -137,6 +137,7 @@ align-items:center;
 .testimonials {
  background: #F7F2E1;
  padding: 60px 80px;
+text-align:center;
 }
 .testimonial-grid {
  display: flex;
@@ -144,6 +145,7 @@ align-items:center;
 }
 blockquote {
  font-style: italic;
+  color:#2F2F2F
 }
 .contact-form {
     padding: 80px;
@@ -242,8 +244,21 @@ blockquote {
  width: 240px;
  margin: 10px;}
 
-  .gallery {
-    padding: 10px;
+  .gallery-grid {
+    padding: 20px;
+    gap:30px;
+    grid-template-columns:none;}
+
+  .gallery img {
+    width:280px;
+    height:280px;}
+
+.testimonials {
+  display:inline;} 
+
+.contact-form {
+  padding: 20px;
+}
 
 
 
