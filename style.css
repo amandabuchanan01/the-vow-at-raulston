@@ -110,27 +110,24 @@ align-items:center;
  display: inline-block;
 }
 .gallery {
- background-color: #F7F2E1;
-  display:grid;
-  place-items:center;
+    background-color: #f7f2e1;
+    display: grid;
+    place-items: center;
 }
+
 .gallery-grid {
-    display:flex;
-  grid-template-columns: repeat(3, 1fr);
-    gap: 60px;  
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three columns for desktop */
+    gap: 60px;
     justify-items: center; /* Center images within the grid items */
-  padding-bottom:40px;
-  padding-top:20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .gallery img {
-    display:grid;
-  place-items:center;
-    width: 300px; /* Set desired width */
-    height: 300px; /* Set desired height for consistency */
-    object-fit: cover; /* Maintain aspect ratio by cropping if necessary */
-      align-items: center;
-       justify-content: center;
+    width: 280px; /* Consistent width */
+    height: 280px; /* Consistent height */
+    object-fit: cover; /* Maintain aspect ratio */
     border-radius: 20px;
 }
 .testimonials {
@@ -246,13 +243,18 @@ blockquote {
   padding:10px;}
                            
 .gallery-grid {
-    padding: 20px;
-    gap:30px;
-    grid-template-columns:none;}
+        grid-template-columns: 1fr; /* One column for mobile */
+        gap: 30px; /* Adjust gap if needed */
+        padding: 20px;
+    }
 
-  .gallery img {
-    width:280px;
-    height:280px;}
+    .gallery img {
+        width: 100%; /* Full width to fit container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Block display for full-width control */
+        margin: 0 auto; /* Center images horizontally */
+    }
+}
 
 .testimonials {
   display:inline;} 
